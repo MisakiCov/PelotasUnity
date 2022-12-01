@@ -13,6 +13,8 @@ GameObject:
   - component: {fileID: 6990545514119711871}
   - component: {fileID: 6990545514119711868}
   - component: {fileID: 6990545514119711840}
+  - component: {fileID: 8829651234871701119}
+  - component: {fileID: 4998306688830353634}
   m_Layer: 0
   m_Name: BD con error minimo
   m_TagString: Untagged
@@ -113,6 +115,36 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &8829651234871701119
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6990545514119711869}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 57e2a01fe4c925940b557096f56702c7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  esfera: {fileID: 6990545514119711869}
+  SujetadorManoo: {fileID: 0}
+  DestinoEsferaa: {fileID: 0}
+  esferaCapturada: 0
+  esferaEnDestino: 0
+--- !u!65 &4998306688830353634
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6990545514119711869}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &6990545514786615272
 GameObject:
   m_ObjectHideFlags: 0

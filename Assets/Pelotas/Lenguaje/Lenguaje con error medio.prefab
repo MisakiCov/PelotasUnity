@@ -108,6 +108,8 @@ GameObject:
   - component: {fileID: 4143690517792382033}
   - component: {fileID: 4143690517792382032}
   - component: {fileID: 4143690517792382063}
+  - component: {fileID: 8337589045847590245}
+  - component: {fileID: 7129847726271162110}
   m_Layer: 0
   m_Name: Lenguaje con error medio
   m_TagString: Untagged
@@ -209,6 +211,36 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &8337589045847590245
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4143690517792382034}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &7129847726271162110
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4143690517792382034}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 57e2a01fe4c925940b557096f56702c7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  esfera: {fileID: 4143690517792382034}
+  SujetadorManoo: {fileID: 0}
+  DestinoEsferaa: {fileID: 0}
+  esferaCapturada: 0
+  esferaEnDestino: 0
 --- !u!1 &4143690518325453659
 GameObject:
   m_ObjectHideFlags: 0

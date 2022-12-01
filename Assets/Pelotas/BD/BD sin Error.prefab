@@ -141,6 +141,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   esfera: {fileID: 5983064995375771989}
   sujetadorMano: {fileID: 8173462692126991939, guid: c60069dcc4bd6a0418b6a81b97e974f2, type: 3}
-  destinoEsferas: {fileID: 697292656265938604, guid: efe73d3b2e9a63f49bf644a025afd096, type: 3}
+  destinoEsferas: {fileID: 0}
   esferaCapturada: 0
   esferaEnDestino: 0

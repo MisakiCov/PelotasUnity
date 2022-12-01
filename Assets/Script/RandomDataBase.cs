@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public class RandomDataBase : MonoBehaviour
 {
     public Transform pos; 
@@ -11,7 +12,7 @@ public class RandomDataBase : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-       for (int i = 0; i < 60; i++){
+       for (int i = 0; i < 12; i++){
         InstantiateObject();
        }
     }

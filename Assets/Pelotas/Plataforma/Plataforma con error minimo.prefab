@@ -13,6 +13,8 @@ GameObject:
   - component: {fileID: 2471369318164971401}
   - component: {fileID: 2471369318164971406}
   - component: {fileID: 2471369318164971403}
+  - component: {fileID: 1815698373321404599}
+  - component: {fileID: 3064747550039073111}
   m_Layer: 0
   m_Name: Plataforma con error minimo
   m_TagString: Untagged
@@ -113,6 +115,36 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &1815698373321404599
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2471369318164971404}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &3064747550039073111
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2471369318164971404}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 57e2a01fe4c925940b557096f56702c7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  esfera: {fileID: 2471369318164971404}
+  SujetadorManoo: {fileID: 0}
+  DestinoEsferaa: {fileID: 0}
+  esferaCapturada: 0
+  esferaEnDestino: 0
 --- !u!1 &2471369318683947519
 GameObject:
   m_ObjectHideFlags: 0
